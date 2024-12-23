@@ -44,10 +44,11 @@ The Tunisian Property Price Predictor is a machine learning-based application th
    streamlit run app.py
 
 ## File Structure
-- `app.py`: Main application script.
-- `models/xgb_classification_model.pkl`: Pre-trained XGBoost model for prediction.
-- `data/`: Contains processed datasets.
-- `visuals/`: Contains visual assets used in the application.
+- `app.py`:  Main application script that powers the web interface for property price prediction using Streamlit.
+- `Tunisian_Category_Price_Prediction.ipynb`: Jupyter notebook used for developing and testing the machine learning model.
+- `xgb_classification_model.pkl`: Pre-trained XGBoost classification model for predicting property price categories.
+- `Property Prices in Tunisia.csv`: Dataset containing property details used for training and testing the model.
+- `README.md`: Documentation file that describes the project, its features, installation instructions, and more.
 
   
 
