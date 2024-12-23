@@ -1,4 +1,6 @@
 streamlit
+joblib
+shap
 scikit-learn
 pandas
 numpy
